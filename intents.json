@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "How's it going?", "Howdy"],
+      "responses": ["Hello! How can I assist you today?", "Hi there!"]
+    },
+    {
+      "tag": "black hole",
+      "patterns": ["What is a black hole?", "Tell me about black holes", "Explain black holes", "How do black holes work?", "What happens inside a black hole?"],
+      "responses": ["A black hole is a region of spacetime where gravity is so strong that nothing, not even light, can escape."]
+    },
+    {
+      "tag": "big_bang",
+      "patterns": ["What is the Big Bang?", "Explain the Big Bang Theory", "How did the universe begin?"],
+      "responses": ["The Big Bang Theory states that the universe began as a singularity and has been expanding ever since.", 
+                    "The universe started with a massive explosion called the Big Bang, around 13.8 billion years ago."]
+    },
+    {
+      "tag": "quantum_mechanics",
+      "patterns": ["What is Quantum Mechanics?", "Explain Quantum Physics", "Tell me about Quantum Mechanics"],
+      "responses": ["Quantum mechanics is a fundamental theory in physics that describes the behavior of particles at the smallest scales.",
+                    "Quantum physics explains how particles like electrons and photons behave in ways that defy classical physics, including wave-particle duality and quantum entanglement."]
+    },
+    {
+      "tag": "relativity",
+      "patterns": ["What is the Theory of Relativity?", "Explain Einstein's Relativity", "How does time dilation work?"],
+      "responses": ["The Theory of Relativity, developed by Albert Einstein, explains how space and time are relative and linked to the speed of light.",
+                    "Einstein's Relativity consists of Special Relativity (which deals with high-speed objects) and General Relativity (which explains gravity as the curvature of spacetime)."]
+    },
+    {
+      "tag": "string_theory",
+      "patterns": ["What is String Theory?", "Explain String Theory", "How does String Theory work?"],
+      "responses": ["String theory suggests that fundamental particles are actually tiny vibrating strings, rather than point-like objects.",
+                    "String theory attempts to unify quantum mechanics and general relativity, providing a possible 'Theory of Everything'."]
+    },
+    {
+      "tag": "ai_ml",
+      "patterns": ["What is AI?", "Explain Machine Learning", "How does AI work?"],
+      "responses": ["Artificial Intelligence (AI) refers to machines that can perform tasks that typically require human intelligence, like learning and decision-making.",
+                    "Machine Learning (ML) is a subset of AI that allows computers to learn from data and improve over time without explicit programming."]
+    }  
+  ]
+}
